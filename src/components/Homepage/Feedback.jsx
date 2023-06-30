@@ -14,7 +14,7 @@ const Feedback = () => {
     <>
       <div className="my-10">
         <h1 className="text-[40px] text-center font-extrabold uppercase">
-          Our Customer's Feedback
+          Our Customer&apos;s Feedback
         </h1>
         <div className="flex flex-row justify-between mx-5">
           <button onClick={() => swiperRef.current?.slidePrev()}>

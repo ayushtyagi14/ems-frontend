@@ -14,7 +14,7 @@ const AboutTraining = () => {
           In EMS training, this impulse is stimulated via a functional vest with
           electrodes and delivered directly to the various main muscle groups.
           Your muscles are activated and contracted by an electromuscular
-          impulse, which is why our EMS training works like the body's own
+          impulse, which is why our EMS training works like the body&apos;s own
           booster principle. This impulse is noticeable for you, but absolutely
           painless.
         </p>

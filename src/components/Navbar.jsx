@@ -107,7 +107,7 @@ const Navbar = () => {
                     EMS Locations
                   </Link>
                   <Link
-                    href="/"
+                    href="/xperience-network"
                     className="w-full px-4 py-2 text-black rounded-md hover:text-[#f10000] focus:text-[#f10000] focus:bg-indigo-100 focus:outline-none"
                   >
                     Xperience Network
@@ -167,7 +167,7 @@ const Navbar = () => {
               </li>
               <li className="mr-3 nav__item">
                 <Link
-                  href="/"
+                  href="/xperience-network"
                   className="inline-block px-4 py-2 text-lg font-normal text-black no-underline rounded-md hover:text-[#f10000] focus:text-[#f10000] focus:bg-indigo-100 focus:outline-none"
                 >
                   Xperience Network
