@@ -6,7 +6,7 @@ const AboutTraining = () => {
       <div className="border-2 border-black md:w-[80%] h-72 md:h-auto"></div>
       <div className="mt-10 md:mt-0">
         <p>
-          EMS stands for Electro Muscle Stimulation and is based on the body's
+          EMS stands for Electro Muscle Stimulation and is based on the body&apos;s
           own principles: Each of your movements, is triggered by a bioelectric
           impulse from the brain
         </p>
