@@ -51,9 +51,8 @@ const Navbar = () => {
 
               {menu && (
                 <div className="flex flex-wrap w-[90%] mx-auto my-5 lg:hidden">
-                  <Link
-                    href="/"
-                    className="w-full px-4 py-2 text-black rounded-md hover:text-[#f10000] focus:text-[#f10000] focus:bg-indigo-100 focus:outline-none flex flex-row items-center justify-between"
+                  <span
+                    className="w-full px-4 py-2 text-black rounded-md hover:text-[#f10000] focus:text-[#f10000] focus:bg-indigo-100 focus:outline-none flex flex-row items-center justify-between hover:cursor-pointer"
                     onClick={() => setDropdown(!dropdown)}
                   >
                     EMS Xperience
@@ -63,7 +62,7 @@ const Navbar = () => {
                       src="https://img.icons8.com/external-regular-kawalan-studio/24/external-chevron-down-user-interface-regular-kawalan-studio.png"
                       alt="external-chevron-down-user-interface-regular-kawalan-studio"
                     />
-                  </Link>
+                  </span>
 
                   {dropdown && (
                     <div className="flex flex-col items-start justify-center text-[14px]">

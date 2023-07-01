@@ -33,12 +33,11 @@ const Features = () => {
     <div className="lg:h-max h-screen md:mb-0 mb-40">
       <div className="relative">
         <div className="md:h-[85vh] h-[120vh]">
-          <Image
-            src={"/results-banner.jpg"}
-            alt="What Is EMS Training"
-            fill
-            className="brightness-[50%] object-cover h-full"
-          />
+        <img
+              src={"/results-banner.jpg"}
+              alt="What Is EMS Training"
+              className="brightness-[50%] object-cover h-full w-full"
+            />
         </div>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:w-[80%] w-[90%] text-white z-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">

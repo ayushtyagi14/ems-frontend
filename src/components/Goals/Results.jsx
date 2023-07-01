@@ -69,11 +69,10 @@ const Results = () => {
       <div className="h-max">
         <div className="relative">
           <div className="md:h-[85vh] h-[55vh]">
-            <Image
+            <img
               src={"/results-banner.jpg"}
               alt="What Is EMS Training"
-              fill
-              className="brightness-[50%] object-cover"
+              className="brightness-[50%] object-cover h-full w-full"
             />
           </div>
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:w-max w-[90%] text-white text-center z-10">

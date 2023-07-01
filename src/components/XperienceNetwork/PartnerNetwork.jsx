@@ -36,7 +36,7 @@ const PartnerNetwork = () => {
 
   return (
     <>
-      <div className="flex flex-col my-10 w-[80%] mx-auto">
+      <div className="flex flex-col my-10 md:w-[80%] w-[90%] mx-auto">
         <h1 className="text-center text-[30px] font-extrabold uppercase">
           Partner Network
         </h1>
@@ -45,7 +45,7 @@ const PartnerNetwork = () => {
             {partnerData.map((partner, index) => (
               <button
                 key={index}
-                className={`hover:bg-[#f10000] hover:text-white text-[#f10000] font-bold py-2 px-6 border-2 border-[#f10000] ${
+                className={`hover:bg-[#f10000] hover:text-white text-[#f10000] font-bold py-2 md:px-6 px-4 border-2 border-[#f10000] ${
                   selectedPartner === index
                     ? "bg-[#f10000] text-white"
                     : "border-[#f10000]"
@@ -65,7 +65,7 @@ const PartnerNetwork = () => {
             </div>
           )}
         </div>
-        <div className="grid grid-cols-3 gap-10 mt-10">
+        <div className="grid md:grid-cols-3 grid-cols-1 gap-10 mt-10">
           <img
             src="/training1.jpg"
             alt="Training Image"
@@ -82,11 +82,11 @@ const PartnerNetwork = () => {
             className="rounded-xl"
           />
         </div>
-        <div className="flex flex-row items-center mt-10">
-          <button className="px-16 py-2 text-[#f10000] border border-[#f10000] rounded-full mr-5 hover:text-white hover:bg-[#f10000]">
+        <div className="flex md:flex-row flex-col items-center mt-10 md:w-[60%]">
+          <button className="px-16 py-2 text-[#f10000] border border-[#f10000] rounded-full w-full md:mr-5 hover:text-white hover:bg-[#f10000] my-2 md:my-0">
             Website
           </button>
-          <button className="px-16 py-2 text-[#f10000] border border-[#f10000] rounded-full hover:text-white hover:bg-[#f10000]">
+          <button className="px-16 py-2 text-[#f10000] border border-[#f10000] rounded-full w-full hover:text-white hover:bg-[#f10000] my-2 md:my-0">
             Contact
           </button>
         </div>
