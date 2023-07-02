@@ -34,7 +34,7 @@ const Features = () => {
       <div className="relative">
         <div className="md:h-[85vh] h-[120vh]">
         <img
-              src={"/results-banner.jpg"}
+              src="/results-banner.jpg"
               alt="What Is EMS Training"
               className="brightness-[50%] object-cover h-full w-full"
             />
