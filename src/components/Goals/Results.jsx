@@ -70,7 +70,7 @@ const Results = () => {
         <div className="relative">
           <div className="md:h-[85vh] h-[55vh]">
             <img
-              src={"/results-banner.jpg"}
+              src="/no-banner.jpeg"
               alt="What Is EMS Training"
               className="brightness-[50%] object-cover h-full w-full"
             />
